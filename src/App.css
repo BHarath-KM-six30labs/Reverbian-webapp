@@ -13,14 +13,14 @@ body {
 .contact-btn {
   position: relative;
   background: none;
-  border: 2px solid #ffffff;
+  border: 2px solid black;
   padding: 12px 20px;
   text-transform: uppercase;
   min-width: 200px;
   font-family: "montserrat", sans-serif;
   cursor: pointer;
   overflow: hidden;
-  color: white; /* Default text color */
+  /* color: white; Default text color */
   transition: color 0.4s linear;
 }
 
@@ -50,14 +50,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
-  color: white;
+  /* background-color: #333; */
+  /* color: white; */
 }
 
 .toggle-button {
   background: none;
-  color: white;
-  border: 1px solid white;
+  /* color: white; */
+  /* border: 1px solid white; */
   padding: 5px 10px;
   cursor: pointer;
 }
