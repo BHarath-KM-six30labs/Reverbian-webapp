@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.grid-item-2 {
+  margin-left: 130px;
+}
+.grid-item-3 {
+  margin-left: 100px;
+}
+.grid-item-2a{
+    margin-left: 90px;
+}
