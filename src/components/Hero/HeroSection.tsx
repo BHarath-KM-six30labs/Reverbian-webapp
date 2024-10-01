@@ -16,32 +16,32 @@ function HeroSection() {
           <input
             type="text"
             placeholder="your@example.com"
-            className="border-2 p-2 rounded-md"
+            className="border-2 p-2 rounded-md "
           />
           <input
             type="button"
             value={"Submit"}
-            className="bg-black text-white border-2 border-white px-3 py-2 rounded-md ml-2"
+            className="bg-black text-white border-2 border-white px-2 py-2 rounded-md ml-2 "
           />
         </div>
       </div>
-      <div className="flex mt-5 mx-10">
+      <div className="flex mt-5 mx-16">
         <div className="flex flex-col flex-1">
           <div className="flex items-center gap-5">
             <p className="Inter text-[64px] font-bold">56%</p>
-            <p className="text-[22px] font-semibold">
+            <p className="text-[24px] font-semibold">
               of early-stage enterprises <br /> and SMBs spend{" "}
             </p>
           </div>
           <div className="flex items-end mb-10 gap-5 relative">
             <p className="Inter text-[64px] font-bold">&lt; 1 hr</p>
-            <p className="text-[22px] font-semibold absolute left-[11rem] bottom-4 Inter">
+            <p className="text-[24px] font-semibold absolute left-[11rem] bottom-4 Inter">
               a day on marketing.{" "}
             </p>
           </div>
         </div>
-        <div className="flex-1 flex items-center ml-16 mt-12 mr-28 ">
-          <p className="text-[18px] Inter">
+        <div className="flex-1 flex items-center ml-[10rem] mt-12  ">
+          <p className="text-[20px] Inter">
             Why? Limited bandwidth, insufficient resources, strategic
             uncertainty, or budget constraints often hold them back. And they
             fall short on marketing.

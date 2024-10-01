@@ -29,7 +29,7 @@ const App = () => {
           className="nav-right "
           style={{ display: "flex", alignItems: "center", gap: "10px" }}
         >
-          <button className="contact-btn" onClick={toggleMenu}>
+          <button className={`contact-btn ${isOpen ? "!-z-30":""}`} onClick={toggleMenu} >
             Toggle Menu
           </button>
           <button
@@ -48,7 +48,7 @@ const App = () => {
           className={`menu ${isOpen ? "open" : ""} ${isClosing ? "close" : ""}`}
         >
           {" "}
-          <button className="contact-btn " onClick={toggleMenu}>
+          <button className="contact-btn !text-white !border-white hover:!text-black " onClick={toggleMenu}>
             Toggle Menu
           </button>
           <div className="menu-content">
