@@ -26,7 +26,7 @@ function PillarCards() {
         <div key={index} className=" items-center mt-16 grid-container">
           <h2 className="text-[49px] grid-item-1">{pillar.title}</h2>
           <div
-            className={`w-[290px] h-[200px] bg-[#E3E3E3] flex items-center justify-center  ${
+            className={`w-[290px] h-[320px] bg-[#E3E3E3] flex items-center justify-center  ${
               pillar.title === "Outcomes" ? "grid-item-2a " : "grid-item-2"
             }`}
           >

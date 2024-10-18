@@ -29,7 +29,10 @@ const App = () => {
           className="nav-right "
           style={{ display: "flex", alignItems: "center", gap: "10px" }}
         >
-          <button className={`contact-btn ${isOpen ? "!-z-30":""}`} onClick={toggleMenu} >
+          <button
+            className={`contact-btn ${isOpen ? "!-z-30" : ""}`}
+            onClick={toggleMenu}
+          >
             Toggle Menu
           </button>
           <button
@@ -48,28 +51,35 @@ const App = () => {
           className={`menu ${isOpen ? "open" : ""} ${isClosing ? "close" : ""}`}
         >
           {" "}
-          <button className="contact-btn !text-white !border-white hover:!text-black " onClick={toggleMenu}>
+          <button
+            className="contact-btn !text-white !border-white hover:!text-black "
+            onClick={toggleMenu}
+          >
             Toggle Menu
           </button>
           <div className="menu-content">
             <h2>Navigation Links</h2>
 
             <ul>
-              {["Home", "About", "Services", "Contact"].map((item) => (
-                <li key={item} className="menu-item ">
-                  {item.split("").map((letter, index) => (
-                    <span key={index} className="counter-letter">{letter}</span>
-                  ))}
-                </li>
-              ))}
+              {["Home", "Resources", "About Us", "Services", "Contact Us"].map(
+                (item) => (
+                  <li key={item} className="menu-item ">
+                    {item.split("").map((letter, index) => (
+                      <span key={index} className="counter-letter uppercase">
+                        {letter}
+                      </span>
+                    ))}
+                  </li>
+                )
+              )}
             </ul>
           </div>
           {/* ... rest of your component ... */}
         </div>
       )}
-      <HeroSection/>
-      <About/>
-      <Partnership/>
+      <HeroSection />
+      <About />
+      <Partnership />
     </div>
   );
 };
